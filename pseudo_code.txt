@@ -1,0 +1,13 @@
+BEGIN
+    SET length = 10
+    SET width = 5
+    SET area = length * width
+    PRINT "panjang 10 dan lebar 5 maka luasnya 50"
+
+    PRINT "Masukan panjang: "
+    GET length
+    PRINT "Masukan lebar: "
+    GET width
+    SET area = length * width
+    PRINT "Luasny adalah: ", area
+END
